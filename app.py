@@ -1,5 +1,5 @@
 import streamlit as st
 
 st.title("Titel")
-age = st.slider('How old are you?', 0, 130, 25)
-st.write("I'm ", age, 'years old')
+nr = st.slider('Input a number?', 0, 100, 1)
+st.write("The number ism ", nr, 'years old')
